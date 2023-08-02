@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
-    <title>Portal KM</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <title>Portal KM - Cadastro</title>
+    <link rel="stylesheet" href="estilo/stylecad2.css">
 </head>
 <body>
     <section>
@@ -15,24 +15,28 @@
         <div class="form-box">
             <div class="form-value">
                 <form action="">
-                    <h2>Login</h2>
+                    <h2>Cadastro de Usuário</h2>
                     <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="nome" required>
+                        <label for="nome">Nome:</label>
+                    </div>
+                    <div class="inputbox">
                         <input type="email" required>
                         <label for="">Email</label>
                     </div>
                     <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
                         <input type="password" required>
                         <label for="">Senha</label>
                     </div>
-                    <div class="forget">
-                        <label for=""><input type="checkbox">Lembrar meus Dados - <a href="redsen.html">Esqueci a Senha</a></label>  
+                    <div class="inputbox">
+                        <input type="text" required>
+                        <label for="">Empresa</label>
                     </div>
-                    <button>Log in</button>
+                    <input class="button" type="submit" value="Cadastrar">
+                    <input class="button" type="reset" value="Limpar">
                     <div class="register">
-                        <p>Não Possui Conta? - <a href="cadastro2.html">Registre Aqui!</a></p>
                     </div>
+                    <a href="index.html">Voltar</a>
                 </form>
             </div>
         </div>
