@@ -76,5 +76,9 @@ ul li.item-menu a .icon > i{
 
 h1{
     margin-left: 60px;
-    padding: 40px 0 40px 60px;
+    padding: 40px 0 40px 100px;
+}
+
+body{
+    background-color: #3c644e;
 }
