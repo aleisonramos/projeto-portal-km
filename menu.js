@@ -1,6 +1,6 @@
 var menuItem = document.querySelectorAll('.item-menu')
 
-function selectLink(){
+function selectLink(){         // Para fazer o Menu Selecionado ficar Pintado quando Clicado
     menuItem.forEach((item)=>
         item.classList.remove('ativo')
     )
