@@ -28,7 +28,7 @@ nav.menu-lateral{
 }
 
 nav.menu-lateral.expandir{
-    width: 300px;
+    width: 240px;
 }
 
 .btn-expandir{
@@ -63,7 +63,7 @@ ul li.item-menu a{
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 4%;
+    padding: 5px 4%;
     display: flex;
     margin-bottom: 20px;
     line-height: 40px;
@@ -91,7 +91,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    text-decoration: none;
 }
 
 body{
