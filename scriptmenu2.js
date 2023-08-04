@@ -12,3 +12,14 @@ const body = document.querySelector("body"),
       modeSwtich.addEventListener("click", ()=>{
         body.classList.toggle("dark")
       })
+
+var imgAtual = "Logo KM Sistemas.png";
+var imgAnterior = "Logo KM branco.png";
+
+function trocar(){
+  document.getElementById('figura').src = imgAtual;
+  let aux = imgAtual;
+  imgAtual = imgAnterior;
+  imgAnterior = aux;
+}
+

@@ -13,7 +13,7 @@
     /* ====== Cores ======= */
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --primary-color: #07AA5D;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
@@ -72,6 +72,9 @@ body.dark{
     min-width: 60px;
     display: flex;
     align-items: center;
+}
+.sidebar.close .image img{
+    background-image: url('../imagem/Logo\ KM\ branco.png');
 }
 
 .sidebar header{
